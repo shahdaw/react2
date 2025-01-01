@@ -1,0 +1,184 @@
+
+.navbar{
+  background-color: rgba(44, 62, 80, 1);
+  padding: 20px 0;
+}
+
+.nav-item{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.header-container {
+  height: auto;
+  background-color: rgba(26,188,156,1);
+  display: flex;       
+  justify-content: center; 
+  align-items: center;        
+  text-align: center;
+  flex-direction: column;
+  gap:17px;
+}
+
+.header-image {
+  width: 200px;    
+  height: auto;    
+}
+  
+
+.heading-header{
+  font-size: 80px;
+  color: white;
+}
+
+.para-header{
+  font-size: 25px;
+  color: white;
+}
+
+.portfolio-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+.about-section{
+  background-color: rgb(32, 216, 179);
+  color:white;
+}
+
+.about-content{
+  display: flex;  
+  align-items: flex-start; 
+  gap: 20px;
+  
+}
+
+.par-about{
+  width: 400px; 
+}
+
+.contact-section{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-form {
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+}
+
+.form-title {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+form button {
+  background-color: rgba(26,188,156,1);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+.footer {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  width: 20%;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color:white;
+}
+
+.footer-section p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-section a {
+  text-decoration: none;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-a{
+  color: rgba(26,188,156,1);
+}
+
+.simple-footer {
+
+  padding: 7px 0;
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
